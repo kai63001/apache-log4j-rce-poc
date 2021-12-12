@@ -1,3 +1,6 @@
+### FOR TEST SERVER MINECRAFT
+
+
 ### Steps
 1. 【Important】***Move*** Log4jRCE.java to /home/remote/Log4jRCE.java, or any other directories except apache-log4j-poc.
 
